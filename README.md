@@ -16,13 +16,13 @@ DatePicker
 
 ## Install
 ```shell
-npm install element-ui -S
+npm install naruto-element-ui -S
 ```
 
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
+import Element from 'naruto-element-ui'
 
 Vue.use(Element)
 
@@ -31,7 +31,7 @@ import {
   Select,
   Button
   // ...
-} from 'element-ui'
+} from 'naruto-element-ui'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)
