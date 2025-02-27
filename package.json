@@ -1,6 +1,6 @@
 {
   "name": "naruto-element-ui",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A Component Library for Secondary development of elementUI",
   "main": "lib/element-ui.common.js",
   "files": [
