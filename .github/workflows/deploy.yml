@@ -14,6 +14,9 @@ jobs:
     name: buildLibrary
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout    # 获取分支的代码和提交记录
+        uses: actions/checkout@v2
+        
       - name: Setup Node.js v14.x # 设置 Node.js 的环境
         uses: actions/setup-node@v1
         with:
